@@ -1,0 +1,45 @@
+body{
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #525151;
+}
+.parent{
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 15px inset black;
+    background: url("./field-high-resolution-clouds-2ca18u2bdawpe3ya.jpg");
+    background-size: cover;
+    position: relative;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+.parent::before{
+    content: "";
+    height: 40px;
+    width: 40px;
+    background-color: rgb(237, 162, 41);
+    border-radius: 50%;
+    box-shadow: 0 0 15px inset black;
+    position: absolute;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    top: 5px;
+    left: 5px;
+}
+.parent:hover::before{
+    position: absolute;
+    background-color: rgb(125, 121, 121);
+    top: 5px;
+    left: 425px;
+
+}
+.parent:hover{
+    background: url("./pngtree-the-moon-in-the-sky-above-the-tree-bed-is-reflected-picture-image_3184601.jpg");
+    background-size: cover;
+}

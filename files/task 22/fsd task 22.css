@@ -1,0 +1,167 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+}
+.parent{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    opacity: 0.7;
+    border-bottom: 2px solid white;
+    display: flex;
+    position: fixed;
+}
+
+.logo:hover{
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.child1{
+    width: 100%;
+    height: 100svh;
+    background-image: url("./hall.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -99;
+}
+.navbar{
+    width: 60%;
+    display: flex;
+}
+.Options_max_screen{
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    top: 25px;
+    left: 35%;
+    
+}
+.Options_max_screen div{
+    padding: 5px 10px;
+}
+select{
+    display: none;
+}
+@media screen and (max-width:500px){
+    .Options_max_screen{
+        display: none;
+    }
+    select{
+        display: block;
+    }
+}
+.Home:hover{
+    border-bottom:2px solid white;
+}
+.Product:hover{
+    border-bottom:2px solid white;
+}
+.Brand:hover{
+    border-bottom:2px solid white;
+}
+.Inspriation:hover{
+    border-bottom:2px solid white;
+}
+.Support:hover{
+    border-bottom:2px solid white;
+}
+.child2{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    /* background-color: red; */
+    border: 2px solid red;
+    color:black;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(102, 38, 38);
+}
+
+.response .content {
+    display: none;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.response .content:target {
+    display: block;
+}
+.child3{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 50px;
+}
+.but1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+    font-size: large;
+}
+.but1:hover{
+    background-color: rgb(100, 99, 100);
+}
+.imagerow1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.imagerow2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.imagerow3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.child4{
+    width: 100%;
+    height: 25svh;
+    background-color: blue;
+}

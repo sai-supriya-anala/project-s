@@ -1,0 +1,33 @@
+button{
+    width:fit-content;
+    height: 50px;
+    background-color: white;
+    border: 2px solid  rgb(11, 162, 238);
+    border-radius: 20px;
+    color:  rgb(11, 162, 238);
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover{
+    color: white;
+    z-index: 9999;
+}
+
+button::before{
+    content: "";
+    width: 80px;
+    height: 50px;
+    background-color: rgb(11, 162, 238);
+    border-radius: 10px;
+    position: absolute;
+    top:0px; 
+    left:-100px;
+    transition: all 5s;
+    /* transform: skewX(40deg); */
+}
+
+button:hover::before{
+    left: 0px;
+    z-index: -9999;
+}

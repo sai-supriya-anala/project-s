@@ -1,0 +1,21 @@
+/*.bgcontainer
+{
+	 background-size: cover;
+    padding: 50px;
+    border: 5px solid #e0680b;
+}
+.data
+{
+	height: 500px;
+    padding-bottom: 20px;
+    display: block;
+    color:orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px; 
+}
+.sub3{
+    background-image: url("download.jpeg");
+}*/
+.ss{
+    background: #e3dcdc;
+}

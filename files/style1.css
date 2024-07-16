@@ -1,0 +1,14 @@
+.first{
+	color: #FFB1B1;
+}
+
+.second{
+	font-style: oblique;
+}
+
+.third{
+	text-shadow: 5px 5px 2px black;
+	border: #FFB1B1 ridge 8px;
+	font-size: 50px;
+	background: seashell;
+}

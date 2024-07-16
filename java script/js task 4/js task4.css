@@ -1,0 +1,59 @@
+body{
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;position: fixed;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: radial-gradient(plum,pink,plum);
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .table:hover {
+    background: linear-gradient(rgb(234, 4, 111),rgb(198, 59, 124),rgb(181, 99, 142));
+  }
+  .table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-style: italic;
+  }
+  .table th {
+    background-color: rgb(70, 50, 83);
+  }
+  .table button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: bisque;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-style: italic;
+  }
+  .table button:hover{
+    background-color: azure;
+  }
+  #studentTable{
+    display: none;
+  }
+  #addTable{
+    background-color: azure;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  #addTable:hover{
+    background-color: peachpuff;
+  }
+  #addButton{
+    background-color: azure;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  #addButton:hover{
+    background-color: peachpuff;
+  }

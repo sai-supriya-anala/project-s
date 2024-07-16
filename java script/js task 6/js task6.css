@@ -1,0 +1,20 @@
+.options_list{
+    height:300px;
+    width:0px;
+    background-color: black;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 1s;
+}
+
+.options{
+    color:white;
+    font-size:xx-large;
+}
+
+.options:hover{
+    text-shadow: 0px 0px 10px rgb(161, 57, 90);
+    transform: scale(1.09);
+}

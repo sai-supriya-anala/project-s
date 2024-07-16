@@ -1,0 +1,30 @@
+table,tr{
+    border-collapse: collapse;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+table{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+tr:hover{
+    background-color:brown
+}
+table,td{
+    padding: 5px 10px;
+}
+
+tr:first-child{
+    background-color: beige;
+    font-weight: 700;
+}
+
+tr:nth-child(2){
+    background-color: blueviolet;
+}
+
+tr:nth-child(3){
+    background-color: rgb(42, 35, 35);
+}

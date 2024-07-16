@@ -1,0 +1,131 @@
+.main{
+    width: 100%;
+    height: 100svh;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.page1{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+.photo{
+    width: 400px;
+    height: 650px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    background-image: url("./image1.png");
+    background-size: cover;
+    /* transition: 2s all; */
+}
+
+.page2{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+.part1{
+    background-color: white;
+    width: 80% ;
+    height: 40% ;
+    margin-top: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.technology{
+    font-size: 16px;
+    color: #6C53FF;
+    /* padding: 40px; */
+    padding-top: 50px;
+    padding-left: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.virtual{
+    font-size: 40px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.matter{
+    font-size: 18px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 30px;
+    justify-content: space-evenly;
+}
+
+.line{
+    font-size: 18px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 30px; 
+}
+
+.part2{
+    width: 80%;
+    height: 40%;
+    background-color: wheat;
+}
+
+.bit1{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 30px; 
+    display: flex;
+}
+
+.logo1{
+    width: 15%;
+    height: 55%;
+    background-color: white;
+    background-image: url("./logo1.png");
+    background-size: cover;
+    border-radius: 90px;
+}
+
+.matter1{
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.bit2{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 30px; 
+    display: flex;
+}
+
+.logo2{
+    width: 15%;
+    height: 55%;
+    background-color: white;
+    background-image: url("./logo2.png");
+    background-size: cover;
+    border-radius: 90px;
+}
+
+.matter2{
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    padding-top: 10px;
+}

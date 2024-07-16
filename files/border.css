@@ -1,0 +1,15 @@
+.mydiv{
+	border-top-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 5px;
+	border-right-width: 5px;
+
+	border-bottom-color: coral;
+	border-left-color: papayawhip;
+	border-right-color: silver;
+	border-top-color: gold;
+
+	border-style: solid;
+
+	color: blue;
+}

@@ -1,0 +1,22 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    position: relative;
+    top: 0;
+    left: 10;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: black;
+    position: sticky;
+    top: 100;
+    
+}
+
+body{
+    height: 1000svh;
+}

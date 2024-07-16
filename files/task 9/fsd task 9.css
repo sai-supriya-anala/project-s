@@ -1,0 +1,80 @@
+#p{
+    height: 470px;
+    width: 270px;
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: silver ;
+    border-bottom-color: rgb(1, 13, 1);
+    border-bottom: 10px rgb(2, 32, 2);
+    position: relative;
+    box-shadow: 0px 0px 5px 3px grey;
+}
+
+#b{
+    height: 400px;
+    width: 230px;
+    border: 5px solid black;
+    border-radius: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+
+#r{
+        height: 260px;
+        width: 230px;
+        border: 5px solid black;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 20px 10px 20px 10px;
+        position: absolute;
+}
+#rolls{
+    position: absolute;
+    top: -5px;
+    font-weight: 1200;
+    font-size: 70px;
+    font-family:Myriad Semi Bold and Gill Sans Roman ;
+}
+#royce{
+    position: absolute;
+    bottom: -5px;
+    font-weight: 1200;
+    font-size: 70px;
+    font-family: Gill Sans Roman ;
+}
+#riya{
+    font-size: 320px;
+    font-family:  monospace;
+    position: absolute;
+    bottom: -230px;
+    left: 20px;
+    font-weight: 1;
+    text-shadow: 5px 4px white;
+    z-index: 1;
+}
+#rr{
+    height: 260px;
+        width: 230px;
+        border: 5px solid black;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 20px 10px 20px 10px;
+        position: absolute;
+}
+#priya{
+    font-size: 320px;
+    font-family: monospace;
+    position: absolute;
+    bottom: -262px;
+    left: 78px;
+    font-weight: 1;
+    z-index: 0;
+    text-shadow: 2px 2px white;
+}
